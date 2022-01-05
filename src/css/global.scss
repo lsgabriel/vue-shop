@@ -1,0 +1,10 @@
+*{font-family: 'Roboto', sans-serif;box-sizing: border-box;}
+
+$primary-color:#47B88C;
+$secondary-color:#259e80;
+
+@mixin title() {color: $primary-color;font-size: 3.8rem;}
+@mixin subtitle() {color: $secondary-color;font-size: 2.2rem;font-weight: 300;}
+
+h1{@include title()}
+h2{@include subtitle()}
