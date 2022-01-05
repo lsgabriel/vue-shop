@@ -1,18 +1,16 @@
 <template>
   <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view /> -->
-  <Header/>
+    <router-link to="/details">About</router-link>
+  </div> -->
+  <router-view />
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import Header from "./pages/Header.vue";
 
 export default defineComponent({
-  components:{Header}
+  components:{}
 })
 </script>
 
