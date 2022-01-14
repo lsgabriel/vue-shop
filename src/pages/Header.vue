@@ -3,7 +3,6 @@
         <div class="content">
             <h1>Clothes Store </h1>
             <p style="font-weight:300;padding-left:0.4rem">buy something new.</p>
-            <!-- <Button color="#47B88C"/> title="SHOP" -->
         </div>
     </header>
     <Navbar/>
