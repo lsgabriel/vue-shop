@@ -67,7 +67,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Categories</h5>
             <button
               type="button"
               class="btn-close"
@@ -77,19 +77,19 @@
           </div>
           <div class="modal-body m-auto">
             <button class="btn modal-btn text-primary">
-              <i class="fas fa-shopping-bag" />
+              <i class="fas fa-tshirt" />
               <br />
-              <p>Tops & T-Shirts</p>
+              <p>T-Shirts</p>
             </button>
 
             <button class="btn modal-btn text-primary">
-              <i class="fas fa-shopping-bag" />
+              <i class="fas fa-vest" />
               <br />
-              <p>Jackets & Vests</p>
+              <p>Jackets</p>
             </button>
 
             <button class="btn modal-btn text-primary">
-              <i class="fas fa-shopping-bag" />
+              <i class="fas fa-tshirt" />
               <br />
               <p>Hoodies</p>
             </button>

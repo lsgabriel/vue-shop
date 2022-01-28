@@ -1,5 +1,5 @@
 <template>
-    <div class="products-grid m-3 col-md-10 m-auto">
+    <div class="products-grid m-3 col-md-9 m-auto">
       <div class="mt-2 mb-5 row row-cols-1 row-cols-md-3 g-5">
         <div class="col">
           <Card imageUrl="pic1.jpeg" title="Nike X" priceProps="210.00" />
@@ -17,7 +17,7 @@
           <Card imageUrl="pic3.jpeg" title="Nike Y" priceProps="250.00" />
         </div>
         <div class="col">
-          <Card imageUrl="pic3.jpeg" title="Nike X" priceProps="190.00" />
+          <Card imageUrl="pic3.jpeg" title="Nike One" priceProps="190.00" />
         </div>
       </div>
     </div>

@@ -44,8 +44,9 @@ export default defineComponent({
 <style lang="scss" scoped>
     .card { 
     border: none;box-shadow: 0 10px 20px 4px #e1e5e7;
+
     img{
-        width: 19rem;height: 19rem;margin: auto;border-radius: 0.25rem;
+        width: 100%;height: 18rem;border-radius: 0.25rem;
     }
     p{font-weight: 300;color: #111111;}
     .price{font-size: 2rem;}
