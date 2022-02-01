@@ -23,5 +23,9 @@ export default defineComponent({
         &:hover{
             background-color: #47B88C;border:none;
         }
+
+        @media(max-width: 480px) {
+                width: 100%;margin:0;font-size:1.6rem;margin-bottom:1.1rem;
+            }
     }
 </style>

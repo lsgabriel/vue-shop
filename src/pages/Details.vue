@@ -10,23 +10,23 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra est id arcu varius, ac fermentum lectus varius. Pellentesque maximus eu dolor id faucibus. Maecenas mi est, molestie eget posuere non, pharetra convallis nibh.</p>
                 <p class="price">210.00</p>
 
-                <Button title="Buy"/>
                 <Button title="Add to Cart"/>
+                <Button title="Favorite"/>
             </div>
         </div>
     </div>
 
-    <div class="bottom"></div>
-    <!-- <Footer/> -->
+    <div class="bottom mb-5"></div>
+    <Footer/>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-/* import Footer from './Footer.vue'; */
+import Footer from './Footer.vue';
 import Button from '../components/Button.vue';
 
 export default defineComponent({
-  components:{Button}
+  components:{Button,Footer}
 })
 </script>
 
@@ -36,8 +36,12 @@ export default defineComponent({
     .main-container{
 
         .product-img{
-            width: 100%;min-height: 62vh;object-fit: cover;
+            width: 100%;height: 62vh;object-fit: cover;
             @include customBorder();
+
+            @media(max-width: 499px) {
+                height: 48vh;padding:10px;
+            }
         }
 
         .product-desc{

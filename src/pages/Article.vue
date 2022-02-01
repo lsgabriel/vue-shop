@@ -24,7 +24,7 @@
 
     <div class="section col-md-10 m-auto mb-5">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
+        Clothes Store Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque
         est pulvinar ex porttitor dignissim. Phasellus hendrerit, nisi diam
         pretium lectus
       </p>

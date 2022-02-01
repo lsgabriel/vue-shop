@@ -1,10 +1,30 @@
 <template>
   <div>
     <footer class="col-md-10 m-auto mb-5 row">
-      <div class="col-md-7 m-auto text-center">
+      <!-- <div class="col-md-7 m-auto text-center">
         <i class="text-dark fab fa-instagram"></i>
         <i class="text-dark fab fa-facebook"></i>
         <i class="text-dark fab fa-whatsapp"></i>
+      </div> -->
+
+      <div class="col-md-4">
+        <h1 style="font-size:1.6rem">Clothes Store</h1>
+        <i class="text-dark fab fa-instagram"></i>
+        <i class="text-dark fab fa-facebook"></i>
+        <i class="text-dark fab fa-whatsapp"></i>
+      </div>
+
+
+      <div class="col-md-3">
+        <p>Products</p>
+        <p>Store</p>
+        <p>Collection</p>
+
+      </div>
+
+      <div class="col-md-3">
+        <p>Support</p>
+        <p>Terms and conditions</p>
       </div>
     </footer>
   </div>
@@ -18,11 +38,12 @@ footer {
 
   .fab {
     font-size: 2rem;
-    padding-left: 0.7rem;
+    padding-left: 0.4rem;margin-bottom:1rem;
+    &:hover {opacity: 0.5;}
+  }
 
-    &:hover {
-      opacity: 0.5;
-    }
+  p{
+    &:hover{color: #098697;border-left: solid 1px #1a1a1a;}
   }
 }
 </style>
